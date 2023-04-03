@@ -1,0 +1,17 @@
+//INSTALL NODE PACKAGE MANAGER
+npm i 
+
+//INSTALL BOOTSTRAP
+npm install bootstrap@v5.2.3
+
+//Add bootstrap css in package.json
+"./node_modules/bootstrap/dist/css/bootstrap.min.css",
+
+
+//Add bootstrap js in package.json
+ "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
+
+//INSTALL SWIPER
+npm i swiper
