@@ -1,4 +1,50 @@
 * {
     font-family: 'Noto Serif', serif;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;   
+}
+
+
+:root {
+    --black:#000!important;
+    --wood: #544438 !important;
+    --gray: #F6F5F5 !important;
+    --white: #ffffff !important;
+    --main: #e1c265 !important;
+    --second: #99402C !important;
+    --font-main: 'Open Sans' !important;
+    --font-headers: 'Frank Ruhl Libre' !important;
+    --aliceblue:aliceblue;
+}
+.btn{
+    font-size: 12px !important;
+}
+
+
+.btn-wood{
+    background-color: var(--wood);
+    color:var(--white);
+    font-size: 12px;
+    padding:5px 15px;
+    border-radius: 30px;
+    box-shadow: 1px 2px 4px var(--wood);
+}
+.btn-wood-second{
+    /* background-color: var(--main); */
+    color:var(--second);
+    border:1px solid var(--second);
+    padding:5px 15px;
+    border-radius: 30px;
+}
+.btn-wood:hover{
+    background-color: var(--second);
+    color:var(--gray);
+ 
+}   
+.border-wood{
+   border:2px solid var(--second);
+   border-color: var(--second);
+}
+.text-wood{
+    color:var(--second);
+    font-weight: 700;
 }
