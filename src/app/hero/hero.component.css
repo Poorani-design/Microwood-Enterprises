@@ -1,7 +1,8 @@
 .row {
     justify-content: space-between;
     align-items: center;
-    height: 90vh;
+    
+    /* height: 90vh; */
     
 }
 
@@ -18,11 +19,16 @@
     font-weight: bold;
     font-size: 3rem;
 }
-
+.hero-right{
+    position:relative;
+}
 .hero-right>img {
-    width: 100%;
-    height: auto;
+    width: 95%;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
     padding: 5rem;
+   
 }
 
 .hero-left>p {
@@ -32,17 +38,18 @@
 .leaf {
 
     position: absolute;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     z-index: -1;
 }
 
 .leaf>img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 .leaf1 {
     top: 12%;
+    position: absolute;
     left: 0;
     /* animation-name:leaf11;
     animation-duration: 10s;   
@@ -58,13 +65,13 @@
 
     100% {
         top: 90%;
-        left: 50%;
     }
 }
 
 .leaf2 {
-    top: 80%;
-    right:10%;
+    bottom: 10%;
+    right:15%;
+    z-index:1;
     animation: leaf12 5s infinite;
 }
 
@@ -76,16 +83,17 @@
         transform: rotate(90deg);
     }
     90% {
-        transform: rotate(180deg);
+        transform: rotate(150deg);
     }
     100%{
-        transform: rotate(0deg);
+        transform: rotate(180deg);
     }
 }
 
 .leaf3 {
-    top: 20%;
-    right: 50%;
+    top: 11%;
+    left: 15%;
+    z-index:1;
     animation: leaf13 5s infinite;
 }
 
@@ -104,12 +112,24 @@
     .hero-right>img {
         padding: 1rem;
     }
+    .hero-left-heading {
+        font-size: 1.5rem;
+    }
+    .highlight-text{
+        font-size: 1.5rem;
+    }
+    .row{
+        flex-direction: column-reverse;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .hero-right>img {
         padding: 1.5rem;
+    }
+    .hero-left-heading {
+        font-size: 1.5rem;
     }
 }
 
@@ -118,6 +138,9 @@
     .hero-right>img {
         padding: 2rem;
     }
+    .hero-left-heading {
+        font-size: 1.5rem;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -125,7 +148,16 @@
     .hero-right>img {
         padding: 3rem;
     }
+    .hero-left-heading {
+        font-size: 1.8rem;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+    .hero-right>img {
+        padding: 4rem;
+        margin:0;
+   
+    }
+}

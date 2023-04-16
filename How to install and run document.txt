@@ -16,7 +16,22 @@ npm install bootstrap@v5.2.3
 //INSTALL SWIPER
 npm i swiper
 
+//install font-awesome
+npm i angular-font-awesome
 
+// ADD FONT AWESOME css IN ANGULAR.JSON
+"../node_modules/font-awesome/css/font-awesome.css"
+
+Install Packages 
+npm install --save font-awesome angular-font-awesome
+
+// IF NOT ADD FONT AWESOME IN ANGULAR.JSON
+ADD CSS STYLESHEET IN INDEX.HTML
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
 ///SWIPER LINK
 https://stackblitz.com/edit/swiper-angular-example?file=src%2Fapp%2Fapp.module.ts
+
+
+//font awesome linkg
+https://fontawesome.com/versions#stacked

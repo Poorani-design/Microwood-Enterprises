@@ -1,6 +1,7 @@
 .bg-footer{
     background-color: var(--wood);    
     color:var(--aliceblue);
+    font-size: 0.8rem;
  
 }
 a{
@@ -37,3 +38,15 @@ a:hover{
     background: none;
     color:var(--main);
 } 
+p > a {
+    text-decoration: none;
+}
+p>a:hover{
+    color:var(--white);
+}
+.link-body-emphasis>i:hover{
+   color:var(--main)
+}
+a:hover{
+    color:var(--main);
+}

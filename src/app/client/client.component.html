@@ -1,11 +1,11 @@
-<div class="container">
+<div class="container mt-2 pt-2" id="clients">
     <div class="row">
         <div class="col-12">
            
         <h2 class="text-center  text-wood my-5">OUR CLIENTS</h2>
 <swiper 
 style="padding:2rem"
-[slidesPerView]="5" [spaceBetween]="20"  [loop]="true" 	[autoplay]="{ delay: 1000, disableOnInteraction: false }" 
+ [breakpoints]="breakpoints" [loop]="true" 	[autoplay]="{ delay: 1000, disableOnInteraction: false }" 
 [pagination]="{ el: '.swiper-pagination.pagination-test' }">
 <ng-template swiperSlide><img src="../assets/images/logo/logo-1.png"  alt="image1"></ng-template>
 <ng-template swiperSlide><img src="../assets/images/logo/logo-2.png"  alt="image1"></ng-template>

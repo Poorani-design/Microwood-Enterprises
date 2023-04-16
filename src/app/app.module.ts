@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-
 import { SwiperModule } from "swiper/angular";
 import { ClientComponent } from './client/client.component';
 import { ProductComponent } from './product/product.component';
@@ -24,6 +23,7 @@ import { TestimonalsComponent } from './testimonals/testimonals.component';
     AboutComponent,
     WhychooseusComponent,
     TestimonalsComponent,
+    
     
   ],
   imports: [

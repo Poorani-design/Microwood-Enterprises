@@ -17,4 +17,8 @@ nav{
     font-weight:700;
 
 }
+.btn-wood:hover{
+    background-color: var(--main);
+    color:var(--black)
+}
 
