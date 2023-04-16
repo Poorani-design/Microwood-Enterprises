@@ -15,3 +15,8 @@ npm install bootstrap@v5.2.3
 
 //INSTALL SWIPER
 npm i swiper
+
+
+
+///SWIPER LINK
+https://stackblitz.com/edit/swiper-angular-example?file=src%2Fapp%2Fapp.module.ts

@@ -1,0 +1,22 @@
+.row {
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    
+}
+.about-left-heading {
+    font-size: 3rem;
+}
+
+.highlight-text {
+    color: var(--wood);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.about-right>img {
+    width: 100%;
+    height: auto;
+    padding: 5rem;
+}
+

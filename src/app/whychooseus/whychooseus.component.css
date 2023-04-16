@@ -1,0 +1,10 @@
+*{
+    background-color: var(--wood);
+    color:var(--main);
+}
+.container-fluid{
+    padding:3rem;
+}
+p{
+    font-size: 11px;
+}

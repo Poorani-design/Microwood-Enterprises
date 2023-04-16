@@ -1,0 +1,131 @@
+.row {
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    
+}
+
+.hero-content {
+    line-height: 2em;
+}
+
+.hero-left-heading {
+    font-size: 3rem;
+}
+
+.highlight-text {
+    color: var(--wood);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.hero-right>img {
+    width: 100%;
+    height: auto;
+    padding: 5rem;
+}
+
+.hero-left>p {
+    font-size: 1rem;
+}
+
+.leaf {
+
+    position: absolute;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.leaf>img {
+    width: 30px;
+    height: 30px;
+}
+
+.leaf1 {
+    top: 12%;
+    left: 0;
+    /* animation-name:leaf11;
+    animation-duration: 10s;   
+    animation-iteration-count: infinite; */
+    animation: leaf11 15s infinite;
+}
+
+@keyframes leaf11 {
+    0% {
+        top: 12%;
+        left: 0;
+    }
+
+    100% {
+        top: 90%;
+        left: 50%;
+    }
+}
+
+.leaf2 {
+    top: 80%;
+    right:10%;
+    animation: leaf12 5s infinite;
+}
+
+@keyframes leaf12 {
+    0% {
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    90% {
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.leaf3 {
+    top: 20%;
+    right: 50%;
+    animation: leaf13 5s infinite;
+}
+
+@keyframes leaf13 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .hero-right>img {
+        padding: 1rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .hero-right>img {
+        padding: 1.5rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .hero-right>img {
+        padding: 2rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .hero-right>img {
+        padding: 3rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
