@@ -27,20 +27,20 @@ export class ProductComponent {
   
   ngOnInit(){
     this.images =[
-      '../../assets/images/product-slider/microwood_enterprises_1.jpg',
-      '../../assets/images/product-slider/microwood_enterprises_2.jpg',
-      '../../assets/images/product-slider/microwood_enterprises_3.jpg',
-      '../../assets/images/product-slider/microwood_enterprises_4.jpg',
-      '../../assets/images/product-slider/microwood_enterprises_5.jpg',
-      '../../assets/images/product-slider/microwood_enterprises_6.jpg',
-      '../../assets/images/product-slider/microwood_enterprises_7.jpg',
-      '../../assets/images/product-slider/microwood_enterprises_8.jpg',
-      '../../assets/images/product-slider/microwood_enterprises_9.jpg',
-      '../../assets/images/product-slider/microwood_enterprises_10.jpg',
-      '../../assets/images/product-slider/microwood_enterprises_11.jpg',
-      '../../assets/images/product-slider/microwood_enterprises_12.jpg',
-      '../../assets/images/product-slider/microwood_enterprises_13.jpg',
-      '../../assets/images/product-slider/microwood_enterprises_14.jpg'
+      '../../assets/images/product-slider-compressed/microwood_enterprises_1-min.jpg',
+      '../../assets/images/product-slider-compressed/microwood_enterprises_2-min.jpg',
+      '../../assets/images/product-slider-compressed/microwood_enterprises_3-min.jpg',
+      '../../assets/images/product-slider-compressed/microwood_enterprises_4-min.jpg',
+      '../../assets/images/product-slider-compressed/microwood_enterprises_5-min.jpg',
+      '../../assets/images/product-slider-compressed/microwood_enterprises_6-min.jpg',
+      '../../assets/images/product-slider-compressed/microwood_enterprises_7-min.jpg',
+      '../../assets/images/product-slider-compressed/microwood_enterprises_8-min.jpg',
+      '../../assets/images/product-slider-compressed/microwood_enterprises_9-min.jpg',
+      '../../assets/images/product-slider-compressed/microwood_enterprises_10-min.jpg',
+      '../../assets/images/product-slider-compressed/microwood_enterprises_11-min.jpg',
+      '../../assets/images/product-slider-compressed/microwood_enterprises_12-min.jpg',
+      '../../assets/images/product-slider-compressed/microwood_enterprises_13-min.jpg',
+      '../../assets/images/product-slider-compressed/microwood_enterprises_14-min.jpg'
   
     ]
   }

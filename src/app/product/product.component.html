@@ -9,7 +9,7 @@
       <swiper [loop]="true" [breakpoints]="breakpoints" [navigation]="{}"
      [scrollbar]="{ draggable: true }" [watchSlidesProgress]="true">
         <ng-template swiperSlide *ngFor="let image of images"  >
-          <img src="{{image}}"  class="product-image ms-5" loading="lazy" >
+          <img src="{{image}}"  alt="{{image}}" title="{{image}}" width="95%" height="300px" class="product-image ms-5" loading="lazy" >
         </ng-template>
        
       </swiper>
