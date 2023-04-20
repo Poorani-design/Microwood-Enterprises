@@ -1,7 +1,5 @@
 
 .product-image{
-    width: 95%;
-    height: 300px;
    box-shadow: 3px 2px 10px rgba(0,0,0,0.2);
    border-radius: 15px;
    margin:2rem;
@@ -12,10 +10,10 @@
     font-weight: bold;
     font-size: 2rem;
 }
-swiper{
+/* swiper{
     align-items: center;
     display: flex;
     justify-content: center;
     width: 90%;
     cursor: grab;
-}
+} */
