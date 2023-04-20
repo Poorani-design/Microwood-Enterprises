@@ -86,8 +86,8 @@ body{
         flex-direction: column-reverse;
     }
     .product-image{
-        height: 350px !important;
-        width: 90% !important;
+        /* height: 300px !important;
+        width: 250px !important; */
         margin:1rem;
     }
     .about-left-heading{
