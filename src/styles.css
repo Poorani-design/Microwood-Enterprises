@@ -1,6 +1,7 @@
 * {
     font-family: 'Noto Serif', serif;
-    font-family: 'Poppins', sans-serif;   
+    font-family: 'Poppins', sans-serif;  
+    font-display: optional; 
     scroll-behavior: smooth;
     scroll-margin: 20px;
     transition: .5s all;
@@ -82,9 +83,7 @@ body{
     .highlight-text{
         font-size: 1.5rem!important;
     }
-    .row-hero{
-        flex-direction: column-reverse;
-    }
+ 
     .product-image{
         /* height: 300px !important;
         width: 250px !important; */

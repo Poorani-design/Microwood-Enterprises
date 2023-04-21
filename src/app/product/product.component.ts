@@ -37,10 +37,10 @@ export class ProductComponent {
       '../../assets/images/product-slider-compressed/microwood_enterprises_8-min.jpg',
       '../../assets/images/product-slider-compressed/microwood_enterprises_9-min.jpg',
       '../../assets/images/product-slider-compressed/microwood_enterprises_10-min.jpg',
-      '../../assets/images/product-slider-compressed/microwood_enterprises_11-min.jpg',
-      '../../assets/images/product-slider-compressed/microwood_enterprises_12-min.jpg',
-      '../../assets/images/product-slider-compressed/microwood_enterprises_13-min.jpg',
-      '../../assets/images/product-slider-compressed/microwood_enterprises_14-min.jpg'
+      // '../../assets/images/product-slider-compressed/microwood_enterprises_11-min.jpg',
+      // '../../assets/images/product-slider-compressed/microwood_enterprises_12-min.jpg',
+      // '../../assets/images/product-slider-compressed/microwood_enterprises_13-min.jpg',
+      // '../../assets/images/product-slider-compressed/microwood_enterprises_14-min.jpg'
   
     ]
   }
