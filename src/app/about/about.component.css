@@ -1,0 +1,33 @@
+.row {
+    justify-content: space-between;
+    align-items: center;    
+}
+.microwood_enterprise_ceo_image{
+    border-radius: 10%;
+    /* box-shadow: 5px 10px 15px var(--wood); */
+}
+.about-left-heading {
+    font-size: 1.6rem;
+}
+.about-right>img {
+    width: 80%;
+    height: auto;
+    padding: 2rem;
+}
+.highlight-text{
+    color: var(--wood);
+    font-weight: bold;
+    font-size: 2rem;
+}
+.about-left-para{
+    line-height: 2rem;
+}
+
+@media screen and (max-width:700px) {
+    .about-right>img {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+}
+

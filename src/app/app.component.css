@@ -1,4 +1,24 @@
-swiper {
-    height: 400px;
-    width: 600px;
+swiper{
+    cursor: -webkit-grab; cursor: grab;
+}
+.swiper-container {
+    width: 100%;
+    height: 100px;
+  }
+  img{
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
   }

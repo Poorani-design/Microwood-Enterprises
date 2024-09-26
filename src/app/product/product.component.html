@@ -1,0 +1,23 @@
+<div class="container py-md-3 py-lg-3 py-xs-0 py-sm-0 my-1" id="products">
+  <div class="row">
+    <h1 class="about-left-heading text-center mt-3 mt-sm-0 p-sm-0 p-xs-0 mt-xs-0 text-wood">
+      Discover <span class="highlight-text">Your Perfect Door</span>
+    </h1>
+
+    <!-- <h6 class="text-center my-3">OUR AWESOME REAL PROJECTS</h6> -->
+    <div class="col-12 ">
+      <swiper [loop]="true" [breakpoints]="breakpoints" [navigation]="{}" class=" d-flex justify-content-center align-content-center align-items-center" 
+    
+     >
+     <!-- [watchSlidesProgress]="true" -->
+     <!-- [scrollbar]="{ draggable: true }"  -->
+        <ng-template swiperSlide *ngFor="let image of images"class=" d-flex justify-content-center align-content-center align-items-center m-2"  >
+ 
+   <img src="{{image}}"  alt="microwood_enterprises_client_projects" title="microwood_enterprises_client_projects"  width="200px" height="270px" class="product-image"  loading="lazy" >
+        </ng-template>
+       
+      </swiper>
+    </div>
+
+  </div>
+</div>

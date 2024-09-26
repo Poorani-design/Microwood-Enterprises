@@ -1,3 +1,24 @@
+*{
+    z-index: 9;
+    
+}
+nav{
+    background-color: var(--white);
+}
 a{
     text-decoration: none;
+
 }
+nav{
+    line-height: 10px;
+}
+.navbar-brand{
+    color:var(--wood);
+    font-weight:700;
+
+}
+.btn-wood:hover{
+    background-color: var(--main);
+    color:var(--black)
+}
+

@@ -1,0 +1,52 @@
+.bg-footer{
+    background-color: var(--wood);    
+    color:var(--aliceblue);
+    font-size: 0.8rem;
+ 
+}
+a{
+    color:var(--aliceblue);
+}
+a:hover{
+    color:var(--black);
+}
+/* .btn{
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+} */
+.btn-wood{
+    width: 8rem;
+    padding:9px 15px;
+    border-radius: 5px;
+    background: var(--main);
+    color:var(--wood);
+    border:2px solid var(--main);
+    font-weight: bold;
+    font-size: 15px;
+    transition: .5s all;
+}  
+.btn-wood:hover{
+    background: none;
+    color:var(--main);
+} 
+p > a {
+    text-decoration: none;
+}
+p>a:hover{
+    color:var(--white);
+}
+.link-body-emphasis>i:hover{
+   color:var(--main)
+}
+a:hover{
+    color:var(--main);
+}
