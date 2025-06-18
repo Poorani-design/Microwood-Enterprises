@@ -35,3 +35,21 @@ https://stackblitz.com/edit/swiper-angular-example?file=src%2Fapp%2Fapp.module.t
 
 //font awesome linkg
 https://fontawesome.com/versions#stacked
+
+//for datatable installation url link
+https://www.devwares.com/docs/contrast/angular/Installation/
+
+//npm command
+
+npm install --save ng-cdbangular
+
+//angular.json
+"styles": [
+  "node_modules/ng-cdbangular/assets/scss/cdb.scss"
+]
+
+//update angular 
+npm outdated
+ng update
+ng update @angular/cli
+npm outdated

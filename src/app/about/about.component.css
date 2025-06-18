@@ -10,7 +10,7 @@
     font-size: 1.6rem;
 }
 .about-right>img {
-    width: 80%;
+    max-width: 500px;
     height: auto;
     padding: 2rem;
 }
